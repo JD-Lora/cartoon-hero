@@ -1,12 +1,11 @@
 body {
-  background-color: lightyellow;
+  margin: 0;
 }
-
-h1 {
-  font-size: 35px;
-  color: green;
+header {
+  background-color: rgb(19, 182, 236);
+  text-align: center;
 }
-p {
+/* p {
   font-size: 25px;
-  color: blue;
-}
+  color: rgb(57, 57, 172);
+} */
