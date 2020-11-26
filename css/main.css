@@ -1,11 +1,63 @@
 body {
   margin: 0;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  line-height: 30px;
 }
 header {
-  background-color: rgb(19, 182, 236);
+  background-color: rgb(92, 19, 126);
   text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
-/* p {
-  font-size: 25px;
-  color: rgb(57, 57, 172);
+h1,
+h2 {
+  font-family: "Pathway Gothic One", sans-serif;
+}
+header h1 {
+  font-size: 50px;
+}
+header img {
+  border-radius: 50%;
+  border: 10px solid #483a94;
+}
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+main img {
+  max-width: 100%;
+}
+h2 {
+  font-size: 35px;
+  color: rgb(92, 19, 126);
+  margin: 40px 0 10px;
+}
+a {
+  color: rgb(92, 19, 126);
+}
+a:hover {
+  color: white;
+  background-color: rgb(92, 19, 126);
+}
+footer {
+  background-color: rgb(92, 19, 126);
+  text-align: center;
+  color: white;
+  padding: 45px;
+}
+footer a {
+  color: white;
+  margin: 0;
+}
+
+p.caption {
+  color: #999999;
+  font-style: italic;
+  margin-top: 0;
+}
+/* footer a:hover {
+  opacity: 0.5;
+  background-color: transparent;
 } */
